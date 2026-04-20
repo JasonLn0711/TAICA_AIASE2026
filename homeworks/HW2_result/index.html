@@ -220,7 +220,7 @@
       <div class="stat-card stat-red">
         <div class="value">49</div>
         <div class="label">v1/ 逾期改動</div>
-        <div class="sub">backward_compat 硬 0</div>
+        <div class="sub">backward_compat 依規定歸 0</div>
       </div>
     </div>
 
@@ -385,7 +385,7 @@
       <div class="stat-card stat-pink">
         <div class="value">42</div>
         <div class="label">平均 surprise ≥ 85</div>
-        <div class="sub">超綱前瞻設計</div>
+        <div class="sub">超出作業要求的亮點設計</div>
       </div>
     </div>
 
@@ -395,7 +395,7 @@
         <li><span class="dot" style="background:var(--primary);"></span>完整的 Repository Pattern / Strategy / Adapter 抽象層，v1→v2 schema 演進有清楚遷移策略</li>
         <li><span class="dot" style="background:var(--secondary);"></span>測試策略具深度：單元測試 + 屬性測試 (hypothesis) + 邊界 case</li>
         <li><span class="dot" style="background:var(--success);"></span>README 有<strong>設計決策</strong>、<strong>trade-off 討論</strong>、<strong>未來 v3 方向</strong>三大敘述段落</li>
-        <li><span class="dot" style="background:var(--warning);"></span>額外加入 TUI（rich/textual）、SQLite 遷移、atomic write、觀測性指標等超綱設計</li>
+        <li><span class="dot" style="background:var(--warning);"></span>額外加入 TUI（rich/textual）、SQLite 遷移、atomic write、可觀測性指標等作業沒要求但你自己做了的延伸</li>
         <li><span class="dot" style="background:var(--accent);"></span>sdd_v2 的 Mermaid 圖不只兩種，而是針對多個核心功能獨立繪製 sequence / flowchart</li>
         <li><span class="dot" style="background:var(--pink);"></span>向下相容性章節具體列出每個 v1 指令的遷移行為與例外處理</li>
       </ul>
@@ -412,12 +412,12 @@
         <div class="chart-wrap"><canvas id="chartMissing"></canvas></div>
       </div>
       <div class="card">
-        <div class="card-title">⏰ v1/ 逾期改動 → backward_compat 硬 0</div>
+        <div class="card-title">⏰ v1/ 逾期改動 → backward_compat 依規定歸 0</div>
         <div style="padding: 2rem 1rem; text-align:center;">
           <div style="font-size: 4rem; font-weight: 800; color: var(--danger);">49</div>
           <div style="font-size: 0.95rem; color: var(--text-muted); margin-top: 0.5rem;">
             位學生在 v1.0 截止後仍修改 <code>v1/</code> 資料夾<br>
-            依 HW2.md 規定，<strong>backward_compat 強制歸 0</strong>
+            依 HW2.md 規定，<strong>backward_compat 直接歸 0</strong>
           </div>
           <div style="margin-top:1rem; font-size: 0.82rem; color: var(--text-muted);">
             佔總人數 8.1%；有部分可能為 rebase / 空改 / 格式變更，已列入人工覆核。
@@ -503,7 +503,7 @@ final_raw = 0.5 × sonnet.raw + 0.5 × gpt.raw
 # Rescale 到 [60, 100]
 rescaled = 60 + (final_raw / 105) × 40</pre>
         <p style="margin-top:1rem; color: var(--text-muted); font-size: 0.85rem;">
-          <strong>硬規則</strong>：若 scan 偵測 <code>v1/</code> 在截止後有 commit，<code>backward_compat</code> 直接歸 0，不交由模型判斷。<br>
+          <strong>明訂規則</strong>：若系統偵測到 <code>v1/</code> 在截止後仍有 commit，<code>backward_compat</code> 依作業規定直接歸 0，不交由模型判斷。<br>
           <strong>Surprise 上限拉高到 15</strong>（原 HW2.md 規劃 1–5 分人工抽查 bonus 併入此面向）。
         </p>
       </div>
@@ -558,7 +558,7 @@ rescaled = 60 + (final_raw / 105) × 40</pre>
 <footer class="site-footer">
   <p><strong>AIASE2026 HW2 評分分析報告</strong></p>
   <p style="margin-top:0.5rem;">本頁呈現全班匿名化統計，不列出個別學生 github_id。個人分數請查看 GitHub Classroom 回饋。</p>
-  <p style="margin-top:0.5rem; opacity:0.8;">生成時間：2026-04-20T14:45:41.020704+00:00</p>
+  <p style="margin-top:0.5rem; opacity:0.8;">生成時間：2026-04-20T15:09:48.592479+00:00</p>
 </footer>
 
 <script>
