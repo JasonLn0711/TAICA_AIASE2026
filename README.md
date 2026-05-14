@@ -1,5 +1,6 @@
 # 生成式 AI 應用系統與工程 (AIASE 2026)
 
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=JasonLn0711&repo=TAICA_AIASE2026&countColor=%237B1E7B" alt="Visitor count"/>
 **Generative AI Application Systems and Engineering**
 
 > 國立成功大學 資訊工程研究所 ｜ 114 學年度 第 2 學期 ｜ 3 學分
