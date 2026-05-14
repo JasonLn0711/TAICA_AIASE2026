@@ -21,12 +21,19 @@
 ---
 
 ## Announcement
-- We summarize [HW1 result here](https://ktchuang.github.io/TAICA_AIASE2026/homeworks/HW1_result/). Details of each student will be checked and sent to each individual soon.
-- 3/18 Invited Talk
- <p align="center">
-  <img src="318_invitedtalk.png" width="300">
-</p>
+- 4/29 - 5/6 We invite the sharing from Apache Taipei Kafka team
 
+<img src="429_invitedtalk.png" alt="booth" width="200">
+<img src="506_invitedtalk.png" alt="booth" width="200">
+
+- We summarize [HW2 result here](https://ktchuang.github.io/TAICA_AIASE2026/homeworks/HW2_result/). Details of each student will be checked and sent to each individual soon.
+
+- 4/15 We invite the sharing from a US-based Startup [IrisGo](https://meet.bnext.com.tw/articles/view/52362?) 
+<img src="415_invitedtalk.png" alt="booth" width="200">
+
+- 4/8 停課一週
+- HW3 公布：Deadline 4/14 23:59 (Phase 1) and 4/21 (Phase 2) - Build Your Personal RAG — From Raw Data to Agent Skill. Details of [HW3](homeworks/HW3.md)
+- We summarize [HW1 result here](https://ktchuang.github.io/TAICA_AIASE2026/homeworks/HW1_result/). Details of each student will be checked and sent to each individual soon.
 - HW2 公布：規格 SDD 優化實作（Spec-Driven Development — From v1.0 to v2.0）。v1.0 截止 3/20 23:59，v2.0 截止 3/31 23:59。Details of [HW2](homeworks/HW2.md)
 
 - 因應各校加退退時間不一，有部分上週才加入的同學反應來不及HW1的繳交，我們開放HW1延後到本週五晚上23:59 (3/13 23:59)。這是最後deadline。 Details of [HW1](homeworks/HW1.md)
@@ -55,6 +62,7 @@ ___
 |------|------|:--------:|
 | [HW1](homeworks/HW1.md) | Markdown 創作與渲染實作 | 2026/03/10 |
 | [HW2](homeworks/HW2.md) | 規格 SDD 優化實作 (v1.0 → v2.0) | v1.0: 2026/03/20, v2.0: 2026/03/31 |
+| [HW3](homeworks/HW3.md) | Build Your Personal RAG — From Raw Data to Agent Skill | 4/14 23:59 (Phase 1) and 4/21 (Phase 2) |
 
 ---
 
@@ -65,7 +73,9 @@ ___
 | W1 | [課程介紹、Markdown 作為 AI 溝通語言](W1.md) |
 | W2 | [Basis of Vibe Coding](W2.md)、[StockCheck CLI PRD](W2-Supplement1.md)、[StockCheck CLI SDD](W2-Supplement2.md)、[StockHeatMap SDD 教學 Notebook](W2_StockHeatMap_v3.ipynb) |
 | W3 | [From Agentic Product to Agentic Engineering](W3.md) — AI 時代職場衝擊與應變、Agentic Engineering 概念與實務、CLI 優先的 AI 編程工作流、Agent 架構設計（ReAct / Reflection / Multi-Agent）、Spec-Driven Development、可觀測性與防禦性設計 |
-
+| W5 | [Practice of Agentic Coding](W5.md) — SDLC 劇變與多代理協調、AGENTS.md 與 Context Engineering、Skill vs. Sub-Agent 架構決策、可驗證性分界線（Karpathy）、Harness Engineering 三大支柱、Claude Code 六組件實戰、RPI 工作流與 No Vibes Allowed、AI 輔助學習的成效陷阱 |
+| W6 | [Agentic Engineering and RAG](W6.md)
+| W7 | [Agentic Stack : Inter- and Intra-Connectivity](W7.md)
 ---
 
 ## 課程要求
